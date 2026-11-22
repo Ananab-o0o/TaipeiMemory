@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="大稻埕老店故事與台北記憶 NFC 智慧導覽。">
+<title>景點故事｜台北記憶導覽</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="spot" data-spot="3">
+<div class="topbar"><div class="container topbar-inner"><span>TAIPEI MEMORY WALK</span><span>大稻埕五站記憶之旅</span></div></div>
+<header><nav class="container nav"><a class="brand" href="index.html">台北記憶導覽<small>TAIPEI MEMORY WALK</small></a><div class="navlinks"><a href="index.html">導覽首頁</a><a href="index.html#stamps">我的集章</a></div></nav></header>
+<main>
+<section class="page-hero"><div class="container">
+<div class="breadcrumb"><a href="index.html">首頁</a>　/　景點故事</div>
+<div class="page-title-row"><div><div class="eyebrow" id="spotNumber">STOP 01 / 05</div><h1 id="spotName">景點名稱</h1><p id="spotShort" style="color:var(--muted);margin:0"></p></div><div class="page-number">記憶</div></div>
+</div></section>
+<section class="section"><div class="container detail-layout">
+<div>
+<article class="panel"><div class="eyebrow">THE STORY</div><h2>店家故事</h2><p class="story" id="spotIntro"></p><p class="story" id="spotStory"></p></article>
+<article class="panel"><div class="eyebrow">TASTE & MEMORY</div><h2>食物與地方記憶</h2><p id="spotMemory"></p></article>
+<article class="panel"><div class="eyebrow">THINK ABOUT IT</div><h2>留給旅人的問題</h2><p class="question" id="spotQuestion"></p></article>
+<article class="panel"><div class="eyebrow">REFERENCES</div><h2>資料來源</h2><p class="sources" id="sourceLinks"></p><p class="sources">本頁為課程導覽整理，店家歷史與營業資訊請以官方最新公告為準。</p></article>
+</div>
+<aside class="sidebar">
+<div class="panel">
+<div class="eyebrow">VISIT INFO</div><h2>景點資訊</h2>
+<div class="info-row"><span class="info-label">創立／起家</span><span class="info-value" id="spotYear"></span></div>
+<div class="info-row"><span class="info-label">文化主題</span><span class="info-value" id="spotTheme"></span></div>
+<div class="info-row"><span class="info-label">地址</span><span class="info-value" id="spotAddress"></span></div>
+<a class="btn" id="mapLink" href="#" target="_blank" rel="noopener" style="width:100%;margin-top:18px">Google Maps 導航 ↗</a>
+<button class="btn secondary" id="collectButton" type="button" style="width:100%;margin-top:10px">收集這一站印章</button>
+</div>
+<div class="panel"><div class="eyebrow">YOUR JOURNEY</div><h2>五站集章</h2><p style="color:var(--muted);font-size:.9rem">感應或閱讀景點後，按下集章按鈕，記錄你的探索進度。</p><div class="stamps" id="stampGrid"></div><p id="stampCount" class="sources" style="margin-top:12px"></p><div class="progress-wrap"><div class="progress-bar" id="progressBar"></div></div></div>
+</aside>
+</div>
+<div class="container"><div class="page-nav" id="pageNav"></div></div>
+</section>
+</main>
+<footer><div class="container"><strong>走進記憶裡的台北｜大稻埕五站導覽</strong><p><a href="index.html">返回導覽首頁</a>　·　課程專題展示網站</p></div></footer>
+<script src="assets/js/app.js"></script>
+</body></html>

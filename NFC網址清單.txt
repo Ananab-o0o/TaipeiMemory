@@ -1,0 +1,8 @@
+台北記憶導覽｜NFC 標籤寫入網址
+
+首頁：https://ananab-00o.github.io/TaipeiMemory/
+01 林復振商行：https://ananab-00o.github.io/TaipeiMemory/spot1.html
+02 李亭香：https://ananab-00o.github.io/TaipeiMemory/spot2.html
+03 老綿成燈籠店：https://ananab-00o.github.io/TaipeiMemory/spot3.html
+04 食連動魚丸（原味香魚丸）：https://ananab-00o.github.io/TaipeiMemory/spot4.html
+05 林華泰茶行：https://ananab-00o.github.io/TaipeiMemory/spot5.html

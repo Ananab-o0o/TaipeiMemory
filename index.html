@@ -1,50 +1,34 @@
-
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-    <title>台北記憶導覽</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f5f0e8;
-            margin: 0;
-            padding: 20px;
-            line-height: 1.8;
-        }
-        .card {
-            max-width: 600px;
-            margin: auto;
-            background: white;
-            padding: 24px;
-            border-radius: 16px;
-        }
-        h1 { color: #65452d; }
-        a { color: #9a572a; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="用手機走讀大稻埕五間老店，聽見台北的商業、飲食、工藝與茶文化記憶。">
+<title>走進記憶裡的台北｜大稻埕 NFC 智慧導覽</title>
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
-    <div class="card">
-        <h1>阿公67</h1>
-        <p>台北67導覽｜景點 01</p>
-
-        <h2>景點故事</h2>
-        <p>
-            陳泰祥67
-        </p>
-
-        <h2>食物與記憶</h2>
-        <p>
-            從傳統糕餅到茶文化，
-            食物也記錄著城市的生活方式。
-        </p>
-
-        <h2>實地導覽</h2>
-        <a href="https://www.google.com/maps/search/?api=1&query=台北迪化街">
-            在 Google Maps 查看地點
-        </a>
-    </div>
-</body>
-</html>
+<body data-page="home">
+<div class="topbar"><div class="container topbar-inner"><span>TAIPEI MEMORY WALK</span><span>一條街，五段城市記憶</span></div></div>
+<header><nav class="container nav"><a class="brand" href="index.html">台北記憶導覽<small>TAIPEI MEMORY WALK</small></a><div class="navlinks"><a href="#route">導覽路線</a><a href="#stamps">我的集章</a></div></nav></header>
+<main>
+<section class="hero"><div class="container">
+<div class="eyebrow">DADAOCHENG · TAIPEI</div>
+<h1>走進記憶裡的<br>大稻埕</h1>
+<p>從南北貨、漢餅、燈籠、魚丸到茶香，沿著老店的故事，重新認識台北的生活與文化。拿起手機感應 NFC，或直接從網站開始你的散步。</p>
+<div class="hero-actions"><a class="btn" href="#route">開始探索五間老店 ↓</a><a class="btn secondary" id="routeLink" href="#" target="_blank" rel="noopener">開啟整段步行路線 ↗</a></div>
+</div></section>
+<section class="section" id="route"><div class="container">
+<div class="section-head"><h2>五站・五種生活記憶</h2><p>每間店都有自己的故事。點選「閱讀故事」深入探索，也可以直接開啟地圖導航。</p></div>
+<div class="grid" id="shopGrid"></div>
+</div></section>
+<section class="section" id="stamps"><div class="container">
+<div class="section-head"><div><h2>我的大稻埕旅行手冊</h2><p id="stampCount">已收集 0 / 5 枚印章</p></div><button class="btn secondary" id="resetStamps" type="button">重設集章</button></div>
+<div class="progress-wrap"><div class="progress-bar" id="progressBar"></div></div>
+<div class="stamps" id="stampGrid"></div>
+<p class="note" style="margin-top:18px">集章功能會將紀錄存在目前手機／瀏覽器。若更換手機或瀏覽器，紀錄不會自動同步。實際到店前，請先確認店家營業資訊。</p>
+</div></section>
+<section class="section"><div class="container"><div class="route-box"><div><div class="eyebrow" style="color:#e8bd8c">A WALK THROUGH OLD TAIPEI</div><h2 style="margin:5px 0">讓老店，繼續說故事。</h2><p>每一次停留，都是一次重新認識城市的機會。</p></div><a class="btn" href="spot1.html">從第一站出發 →</a></div></div></section>
+</main>
+<footer><div class="container"><strong>走進記憶裡的台北｜大稻埕五站導覽</strong><p>課程專題展示網站。店家沿革依公開資料整理，建議實地訪談補充第一手故事。</p><p>照片建議使用自行拍攝或取得授權的素材；請尊重店家營業與拍攝規範。</p></div></footer>
+<script src="assets/js/app.js"></script>
+</body></html>
